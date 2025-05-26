@@ -5,11 +5,9 @@ const About = () => {
   return (
     <section className="bg-gray-50 py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-gray-800 mb-4">
-          About Me
-        </h2>
+        <h2 className="text-4xl font-bold text-gray-800 mb-4">About Me</h2>
         <p className="text-gray-600 text-lg mb-10 max-w-3xl mx-auto leading-relaxed">
-          I'm a frontend developer who blends creativity and code to craft impactful digital experiences. My mission is to use thoughtful design and functional interfaces to solve real world problems like helping families find missing loved ones.
+          I&apos;m a frontend developer who blends creativity and code to craft impactful digital experiences. My mission is to use thoughtful design and functional interfaces to solve real world problems like helping families find missing loved ones.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 text-left">
@@ -31,7 +29,7 @@ const About = () => {
               <h3 className="text-xl font-semibold text-gray-800">Clean, Scalable Code</h3>
             </div>
             <p className="text-gray-700">
-              Using tools like React, TypeScript, and Next.js, I write clean, maintainable code that's ready to grow with your users and your mission.
+              Using tools like React, TypeScript, and Next.js, I write clean, maintainable code that&apos;s ready to grow with your users and your mission.
             </p>
           </div>
 
@@ -70,7 +68,7 @@ const About = () => {
               "Tailwind CSS",
               "Vue.js",
               "Figma",
-              "Git & GitHub"
+              "Git & GitHub",
             ].map((tool, index) => (
               <li
                 key={index}

@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="max-w-5xl mx-auto">
         <h2 className="text-4xl font-bold text-gray-900 mb-4">📂 Projects</h2>
         <p className="text-lg text-gray-700 mb-12">
-          A look at some of the platforms I've built.
+          A look at some of the platforms I&apos;ve built.
         </p>
 
         <div className="grid gap-10 md:grid-cols-2">

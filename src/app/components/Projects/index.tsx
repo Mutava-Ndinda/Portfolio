@@ -47,15 +47,47 @@ const Projects = () => {
 
             <div className="flex gap-4">
               <a
-                href="https://lostlocate.vercel.app"
+                href="https://github.com/Mutava-Ndinda/Upile-Frontend"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-indigo-900 transition"
+                className="border border-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 transition"
               >
-                Live Demo
+                GitHub
               </a>
+            </div>
+          </div>
+
+          {/* Trivia Game Card */}
+          <div className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all text-left">
+            <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+              Trivia Game
+            </h3>
+            <p className="text-gray-700 mb-4">
+              A fun and interactive trivia quiz game that challenges users with
+              multiple-choice questions across various topics.
+            </p>
+
+            <ul className="text-sm text-gray-600 mb-4 list-disc list-inside space-y-1">
+              <li>Timed multiple-choice questions</li>
+              <li>Score tracking and game flow logic</li>
+              <li>Responsive design for all devices</li>
+            </ul>
+
+            <div className="mb-4">
+              <span className="inline-block bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm mr-2">
+                #React
+              </span>
+              <span className="inline-block bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm mr-2">
+                #JavaScript
+              </span>
+              <span className="inline-block bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">
+                #CSS
+              </span>
+            </div>
+
+            <div className="flex gap-4">
               <a
-                href="https://github.com/your-username/lostlocate"
+                href="https://github.com/Mutava-Ndinda/TriviaGame"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-300 text-gray-700 px-4 py-2 rounded-md hover:bg-gray-100 transition"
